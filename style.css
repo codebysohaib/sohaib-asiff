@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(51 58 86);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.left {
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+}
+
+.right button {
+    background-color: rgb(51 58 86);
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+#menu a {
+    text-decoration: none;
+
+}
+
+#menu li {
+    margin: 5px 0px;
+}
+
+#menu {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 80px;
+    z-index: 1000;
+    background-color: rgb(51 58 86);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#btn {
+    display: none;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name h1 {
+    color: rgb(51 58 86);
+    text-align: center;
+    margin: 10px;
+
+}
+
+.intro p {
+    color: rgb(51 58 86);
+    text-align: center;
+    margin: auto;
+    width: 80vw;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn1 {
+    background-color: rgb(51 58 86);
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid rgb(51 58 86);
+    margin: 5px;
+}
+
+.btn1 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.btn2 {
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid rgb(51 58 86);
+    margin: 5px;
+}
+
+.btn2 a {
+    color: rgb(51 58 86);
+    text-decoration: none;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills div {
+    height: 100px;
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(51 58 86);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 12px;
+}
+#skills div:hover{
+    cursor: pointer;
+}
+
+.heading h2 {
+    margin: 0px 12px;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capsule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.capsule h5 {
+    padding: 6px;
+    border: 1px solid rgb(77, 87, 128);
+    border-radius: 20px;
+    margin: 5px;
+    background-color: rgb(77, 87, 128);
+}
+
+
+@media screen and (max-width: 768px) {
+    #btn {
+        display: inline;
+    }
+
+    .menu {
+        display: none;
+    }
+}

@@ -267,4 +267,7 @@ footer{
     footer{
         flex-direction: column;
     }
+    .fot-right{
+        margin-top: 5px;
+    }
 }

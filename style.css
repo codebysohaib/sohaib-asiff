@@ -42,7 +42,8 @@ ul {
 
 .menu a {
     text-decoration: none;
-    padding: 0px 10px;
+    padding:5px 10px;
+    border-radius: 20px;
 }
 
 #menu a {
@@ -52,6 +53,11 @@ ul {
 
 #menu li {
     margin: 5px 0px;
+}
+.menu li a:hover{
+ background-color: rgb(80, 92, 139);
+ transition: 0.5s ease-in-out;
+ 
 }
 
 #menu {
@@ -86,6 +92,7 @@ ul {
     color: rgb(51 58 86);
     text-align: center;
     margin: 10px;
+    cursor: pointer;
 
 }
 
@@ -94,6 +101,7 @@ ul {
     text-align: center;
     margin: auto;
     width: 80vw;
+    cursor: pointer;
 }
 
 .btns {
@@ -127,12 +135,17 @@ ul {
     color: rgb(51 58 86);
     text-decoration: none;
 }
+.btn1:hover{
+    background-color: rgb(80, 92, 139);
+    transition: 0.5s ease-in-out;
+}
 
 #skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 #skills div {
@@ -146,6 +159,8 @@ ul {
 }
 #skills div:hover{
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+    background-color: rgb(80, 92, 139);
 }
 
 .heading h2 {
@@ -171,6 +186,38 @@ ul {
     margin: 5px;
     background-color: rgb(77, 87, 128);
 }
+#work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.workh h2{
+    color: rgb(51 58 86);
+}
+.projectlist{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.projects{
+    height: 65px ;
+    width: 250px;
+    background-color: rgb(51 58 86);
+    border: 1px solid rgb(51 58 86);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.projects:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(80, 92, 139);
+}
+
 
 
 @media screen and (max-width: 768px) {
